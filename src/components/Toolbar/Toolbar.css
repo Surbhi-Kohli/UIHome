@@ -1,0 +1,26 @@
+.Toolbar {
+  height: 56px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #0e2549;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  z-index: 90;
+}
+.Button {
+  height: 35px;
+  width: 30%;
+  border-radius: 5px;
+  display: flex;
+}
+.Button:active,
+button:hover {
+  background-color: #0e2549;
+  color: white;
+  border-bottom-color: white;
+}

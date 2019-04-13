@@ -1,0 +1,97 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 99%;
+  background: linear-gradient(
+    to bottom,
+    #e1ffff 0%,
+    #e1ffff 7%,
+    #e1ffff 12%,
+    #fdffff 12%,
+    #e6f8fd 30%,
+    #c8eefb 54%,
+    #bee4f8 75%,
+    #b1d8f5 100%
+  );
+}
+.space {
+  padding: 20px;
+}
+.grid-container {
+  width: 90%;
+  height: 92%;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  display: grid;
+  justify-self: center;
+  grid-template-columns: auto auto auto;
+  background-color: #dee2e8;
+  padding: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); /*responsive*/
+  grid-gap: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.i {
+  width: 90px;
+  height: 90px;
+  border-radius: 5px;
+}
+.line {
+  margin-top: 10px;
+  width: 100px;
+  height: 8px;
+  background-color: green;
+  border-radius: 5px;
+}
+.greyLine {
+  margin-top: 10px;
+  width: 100px;
+  height: 8px;
+  border-radius: 5px;
+  background-color: #808080;
+}
+.grey {
+  margin-top: 5px;
+  color: grey;
+}
+.green {
+  margin-top: 5px;
+  color: green;
+}
+.menu-item {
+  width: 100px;
+  padding: 10px;
+  height: 30px;
+  margin: 2px 10px;
+  border-radius: 5px;
+  background-color: #595e73;
+  user-select: none;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  opacity: 0.7;
+}
+.menu-item-wrapper.active {
+  border: 1px blue solid;
+}
+.menu-item.active {
+  border: 1px green solid;
+}
+.scroll-menu-arrow {
+  padding: 20px;
+  background-color: #424f66;
+  border-radius: 5px;
+  opacity: 0.7;
+  cursor: pointer;
+}

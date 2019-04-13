@@ -1,0 +1,15 @@
+.Button {
+  height: 38px;
+  width: 35%;
+  border-radius: 5px;
+  display: flex;
+  padding: 5px;
+  margin-left: 2px;
+  margin-right: 4px;
+}
+.Button:active,
+button:hover {
+  background-color: #0e2549;
+  color: white;
+  border-bottom-color: white;
+}
